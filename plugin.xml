@@ -4,7 +4,7 @@
     id="com.priorityhealth.myhealth.iframelinks"
     version="0.1.1">
     <name>IFrameLinks</name>
-    <description></description>
+    <description>Cordova plugin to allow opening links inside iframes in external browsers</description>
     <keywords>iframe,links</keywords>
     <repo></repo>
 
