@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.priorityhealth.myhealth.iframelinks"
+    id="com.cordova.plugin.iframelinks"
     version="0.1.1">
     <name>IFrameLinks</name>
     <description>Cordova plugin to allow opening links inside iframes in external browsers</description>
