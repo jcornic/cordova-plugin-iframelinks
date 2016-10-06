@@ -15,8 +15,7 @@
   <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="IFrameLinks">
-                <param name="ios-package" value="IFrameLinks" />
-                <param name="onload" value="true" />
+                <param name="ios-package" value="IFrameLinks" onload="true" />
             </feature>
         </config-file>
         <header-file src="src/ios/IFrameLinks.h" />
