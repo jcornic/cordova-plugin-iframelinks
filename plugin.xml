@@ -2,11 +2,14 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.cordova.plugin.iframelinks"
-    version="0.1.5">
+    version="0.1.6">
     <name>IFrameLinks</name>
     <description>Cordova plugin to allow opening links inside iframes in external browsers</description>
     <keywords>iframe,links</keywords>
-    <repo></repo>
+    <engines>
+        <engine name="cordova" version=">=2.4.0" />
+    </engines>
+    <repo>https://github.com/jcornic/cordova-plugin-iframelinks.git</repo>
 
   <!-- ios -->
   <platform name="ios">
@@ -16,7 +19,6 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-
         <header-file src="src/ios/IFrameLinks.h" />
         <source-file src="src/ios/IFrameLinks.m" />
     </platform>
